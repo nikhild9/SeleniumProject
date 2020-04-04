@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="2" parallel="classes" name="Sanity Test">
+	<parameter name="body" value="Iframe Testing Test"> </parameter>
+	<parameter name="url" value="http://the-internet.herokuapp.com/iframe"> </parameter>
+	
+		<classes>
+		<class name="com.csg.tau.demo.Demo_Frames" />
+			<!-- <class name="com.csg.tau.demo.Demo_Robot" />
+			<class name="com.csg.tau.demo.Demo_Robot_download" />
+			<class name="www.etlhive.Home.TC_01_UserRegistration" /> -->
+			
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="2" parallel="classes" name=" Smoke Test">
+	
+		<classes>
+		<!-- 	<class name="com.csg.tau.demo.demo_method" /> -->
+
+		</classes>
+		
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

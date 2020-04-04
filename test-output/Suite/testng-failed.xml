@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Sanity Test(failed)" parallel="classes">
+    <parameter name="body" value="Iframe Testing Test"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/iframe"/>
+    <classes>
+      <class name="com.csg.tau.demo.Demo_Frames">
+        <methods>
+          <include name="f3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.csg.tau.demo.Demo_Frames -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
