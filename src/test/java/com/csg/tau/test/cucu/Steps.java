@@ -25,11 +25,11 @@ public class Steps {
 	public void openGooglepage(String url) {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Nikhil\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		//WebDriver driver=new ChromeDriver();
 			
-		//driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		//driver.get(url);
+		driver.get(url);
 		 
 		}
 
